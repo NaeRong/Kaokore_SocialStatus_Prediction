@@ -23,17 +23,20 @@ In order to complete the prediction model, we will follow the steps below:
     * Criterion: CrossEntropyLoss
     * Activation Function: ReLU
     
+    For more details on the ResNet model, please visit this Python file:
+    [**ResNet Model**](https://github.com/NaeRong/Kaokore_SocialStatus_Prediction/blob/master/Prediction/ResNet.py)
+    
 - **Network Testing**
   - Test the accuracy on the testing samples. The model accuracy rates are:
-    * Train : 88.15%
-    * Validation : 76.17%
-    * Test : 77.80%
+    * **Train** : 88.15%
+    * **Validation** : 76.17%
+    * **Test** : 77.80%
     
     The Training and validation loss graph is shown as below:
     
     ![Train and Validation Loss](https://github.com/NaeRong/Kaokore_SocialStatus_Prediction/blob/master/Prediction/Train_Vali_Loss.png)
     
-    The prediction results on test dataset:
+    The example of image prediction results on the test dataset:
     
     ![Test / Validation / Train Prediction Results](https://github.com/NaeRong/Kaokore_SocialStatus_Prediction/blob/master/Prediction/Prediction_Test.png)
     
